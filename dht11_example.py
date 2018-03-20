@@ -8,7 +8,7 @@ GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
 GPIO.cleanup()
 
-# read data using pin 14
+# read data using pin 5
 instance = dht11.DHT11(pin=5)
 
 while True:
